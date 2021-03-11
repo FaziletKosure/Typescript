@@ -41,12 +41,20 @@
 
 // !FUNCTION
 
-function addNumbers(num1:number,num2:number): number{
+function addNumbers(num1:number,num2?:number): number{
+
+    if (typeof num2==="undefined") {
+        return num1
+        
+    }
     return num1 + num2
     
 }
 
-console.log(addNumbers(20,30))
+// console.log(addNumbers(20,30))   //50
+
+console.log(addNumbers(10));  //10
+
 
 
 
