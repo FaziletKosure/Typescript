@@ -12,29 +12,41 @@
 // console.log("a:",a,"b:",b,"c:",c,"d:",d);
 // console.log('what is up');
 
-let langs:string[];
-langs = ["HTML","Css","React","Js","Ts"]
+// !ARRAY TYPES
 
-console.log(langs);
-console.log(...langs);
+// let langs:string[];
+// langs = ["HTML","Css","React","Js","Ts"]
 
-let numbers:number[];
-numbers=[1,2,3,8,25];
+// console.log(langs);
+// console.log(...langs);
 
-console.log(numbers);
-console.log(...numbers);
+// let numbers:number[];
+// numbers=[1,2,3,8,25];
 
-let boolValues:Array<boolean>;
+// console.log(numbers);
+// console.log(...numbers);
 
-boolValues=[true,false,false]
+// let boolValues:Array<boolean>;
 
-console.log(boolValues);
-console.log(...boolValues);
+// boolValues=[true,false,false]
 
-let a:Array<number>=[1,5,6,9]
+// console.log(boolValues);
+// console.log(...boolValues);
 
-console.log(a);
-console.log(...a);
+// let a:Array<number>=[1,5,6,9]
+
+// console.log(a);
+// console.log(...a);
+
+
+// !FUNCTION
+
+function addNumbers(num1:number,num2:number): number{
+    return num1 + num2
+    
+}
+
+console.log(addNumbers(20,30))
 
 
 
