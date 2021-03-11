@@ -1,10 +1,22 @@
 // console.log("Hello world");
-let a : string;
-a="Hello World "
-let b : number;
+// let a : string;
+// let b : number;
+// let c:boolean;
+// let d:any; //butun degerleri alabilir
 
-b = 22
-console.log("a:",a,"b:",b);
-console.log('what is up');
+// a="Hello World "
+// b = 22
+// c=true;
+// // d="you rock my world";
+// d=25;
+// console.log("a:",a,"b:",b,"c:",c,"d:",d);
+// console.log('what is up');
+
+let langs:string[];
+langs = ["HTML","Css","React","Js","Ts"]
+
+console.log(langs);
+console.log(...langs);
+
 
 
