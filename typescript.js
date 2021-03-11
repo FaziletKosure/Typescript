@@ -40,8 +40,24 @@
 // }
 // console.log(addNumbers(20)); //120
 // console.log(addNumbers(20,50)); //70
-function addNumbers(num1, num2) {
-    console.log(num1 + num2);
-    return;
-}
-addNumbers(20, 50);
+// function addNumbers(num1:number,num2:number): void{
+//     console.log(num1 + num2)
+//     return
+// }
+// addNumbers(20,50)
+// !Class
+var Person = /** @class */ (function () {
+    function Person(name, age, phone) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        console.log("created Person");
+    }
+    Person.prototype.showInfo = function () {
+        console.log("Name: " + this.name + " Age: " + this.age + " Phone: " + this.phone);
+    };
+    return Person;
+}());
+var person1 = new Person("Fazilet", 36, "1234567");
+person1.showInfo();
+console.log(person1.name);
