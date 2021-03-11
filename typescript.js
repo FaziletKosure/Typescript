@@ -35,9 +35,13 @@
 // }
 // console.log(addNumbers(20,30))   //50
 // console.log(addNumbers(10));  //10
+// function addNumbers(num1:number,num2:number=100): number{
+//     return num1 + num2
+// }
+// console.log(addNumbers(20)); //120
+// console.log(addNumbers(20,50)); //70
 function addNumbers(num1, num2) {
-    if (num2 === void 0) { num2 = 100; }
-    return num1 + num2;
+    console.log(num1 + num2);
+    return;
 }
-console.log(addNumbers(20)); //120
-console.log(addNumbers(20, 50)); //70
+addNumbers(20, 50);
