@@ -60,4 +60,4 @@ var Person = /** @class */ (function () {
 }());
 var person1 = new Person("Fazilet", 36, "1234567");
 person1.showInfo();
-console.log(person1.name);
+// console.log(person1.name);

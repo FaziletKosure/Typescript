@@ -79,9 +79,9 @@
 // !Class
 
 class Person{
-    name:string;
-    age:number;
-    phone:string;
+    private name:string;
+    private age:number;
+    private phone:string;
 
     constructor(name:string,age:number,phone:string){
         this.name=name;
@@ -101,7 +101,7 @@ class Person{
 let person1= new Person("Fazilet",36,"1234567")
 
 person1.showInfo()
-console.log(person1.name);
+// console.log(person1.name);
 
 
 
