@@ -41,19 +41,30 @@
 
 // !FUNCTION
 
-function addNumbers(num1:number,num2?:number): number{
+// function addNumbers(num1:number,num2?:number): number{
 
-    if (typeof num2==="undefined") {
-        return num1
+//     if (typeof num2==="undefined") {
+//         return num1
         
-    }
+//     }
+//     return num1 + num2
+    
+// }
+
+// console.log(addNumbers(20,30))   //50
+
+// console.log(addNumbers(10));  //10
+
+function addNumbers(num1:number,num2:number=100): number{
+
+  
     return num1 + num2
     
 }
 
-// console.log(addNumbers(20,30))   //50
+console.log(addNumbers(20)); //120
+console.log(addNumbers(20,50)); //70
 
-console.log(addNumbers(10));  //10
 
 
 
