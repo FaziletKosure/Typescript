@@ -78,10 +78,35 @@
 
 // !Class
 
+// class Person{
+//     private name:string;
+//     private age:number;
+//     private phone:string;
+
+//     constructor(name:string,age:number,phone:string){
+//         this.name=name;
+//         this.age=age;
+//         this.phone=phone;
+
+//         console.log("created Person");
+        
+
+//     }
+//     showInfo(){
+//         console.log(`Name: ${this.name} Age: ${this.age} Phone: ${this.phone}`);
+        
+//     }
+// }
+
+// let person1= new Person("Fazilet",36,"1234567")
+
+// person1.showInfo()
+// // console.log(person1.name);
+
 class Person{
-    private name:string;
-    private age:number;
-    private phone:string;
+     name:string;
+     age:number;
+     phone:string;
 
     constructor(name:string,age:number,phone:string){
         this.name=name;
@@ -98,10 +123,33 @@ class Person{
     }
 }
 
-let person1= new Person("Fazilet",36,"1234567")
+class Employee extends Person{
+    salary : number;
+    constructor(name:string,age:number,phone:string,salary:number){
+       super(name,age,phone)
+        this.salary=salary;
 
-person1.showInfo()
-// console.log(person1.name);
+    }
+    showInfo(){
+        super.showInfo();
+        console.log("Salary: "+ this.salary);
+        
+    }
+
+    changeDepartment(){
+        console.log("change department");
+        
+    }
+
+}
+
+let employee1= new Employee("Fazilet",36,"1234567",4000)
+
+employee1.showInfo();
+employee1.changeDepartment()
+console.log(employee1);
+console.log(employee1.salary);
+
 
 
 
