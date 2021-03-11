@@ -18,5 +18,26 @@ langs = ["HTML","Css","React","Js","Ts"]
 console.log(langs);
 console.log(...langs);
 
+let numbers:number[];
+numbers=[1,2,3,8,25];
+
+console.log(numbers);
+console.log(...numbers);
+
+let boolValues:Array<boolean>;
+
+boolValues=[true,false,false]
+
+console.log(boolValues);
+console.log(...boolValues);
+
+let a:Array<number>=[1,5,6,9]
+
+console.log(a);
+console.log(...a);
+
+
+
+
 
 
