@@ -103,55 +103,58 @@
 // person1.showInfo()
 // // console.log(person1.name);
 
-class Person{
-     name:string;
-     age:number;
-     phone:string;
+// !EXTENDS
+// class Person{
+//      name:string;
+//      age:number;
+//      phone:string;
 
-    constructor(name:string,age:number,phone:string){
-        this.name=name;
-        this.age=age;
-        this.phone=phone;
+//     constructor(name:string,age:number,phone:string){
+//         this.name=name;
+//         this.age=age;
+//         this.phone=phone;
 
-        console.log("created Person");
+//         console.log("created Person");
         
 
-    }
-    showInfo(){
-        console.log(`Name: ${this.name} Age: ${this.age} Phone: ${this.phone}`);
+//     }
+//     showInfo(){
+//         console.log(`Name: ${this.name} Age: ${this.age} Phone: ${this.phone}`);
         
-    }
-}
+//     }
+// }
 
-class Employee extends Person{
-    salary : number;
-    constructor(name:string,age:number,phone:string,salary:number){
-       super(name,age,phone)
-        this.salary=salary;
+// class Employee extends Person{
+//     salary : number;
+//     constructor(name:string,age:number,phone:string,salary:number){
+//        super(name,age,phone)
+//         this.salary=salary;
 
-    }
-    showInfo(){
-        super.showInfo();
-        console.log("Salary: "+ this.salary);
+//     }
+//     showInfo(){
+//         super.showInfo();
+//         console.log("Salary: "+ this.salary);
         
-    }
+//     }
 
-    changeDepartment(){
-        console.log("change department");
+//     changeDepartment(){
+//         console.log("change department");
         
-    }
+//     }
 
-}
+// }
 
-let employee1= new Employee("Fazilet",36,"1234567",4000)
+// let employee1= new Employee("Fazilet",36,"1234567",4000)
 
-employee1.showInfo();
-employee1.changeDepartment()
-console.log(employee1);
-console.log(employee1.salary);
+// employee1.showInfo();
+// employee1.changeDepartment()
+// console.log(employee1);
+// console.log(employee1.salary);
 
 
 
+
+// !INTERFACE
 
 
 
