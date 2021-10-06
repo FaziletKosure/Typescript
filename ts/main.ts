@@ -58,3 +58,7 @@ anyArray=["a","b",1,"c",5,true]
 enum Color {purple, black, red}
 let bgColor=Color.red;
 bgColor=Color.black;
+
+// --------------------TUPLE----------------------
+let myTupleError=[string,number];
+myTupleError=["Not found",404];
