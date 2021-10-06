@@ -76,3 +76,15 @@ notSure=37;
 notSure=false;
 notSure=["a","b"]
 // a=notSure // can not assign
+
+
+/**
+* Type Assertions?
+* shut your mounth typescript; I know what I doe !
+ */
+
+ let message;
+ message="I love Coding"
+
+ const newMessage=(<string>message).toLowerCase(); // type assertions
+ const newNewMessage=(message as string).toLowerCase(); // type assertions
