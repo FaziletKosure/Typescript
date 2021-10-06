@@ -78,3 +78,12 @@ var message;
 message = "I love Coding";
 var newMessage = message.toLowerCase(); // type assertions
 var newNewMessage = message.toLowerCase(); // type assertions
+/**
+*  Object type
+
+ */
+var user = {
+    name: "Jef",
+    age: 30,
+    favoriteColor: "blue"
+};
