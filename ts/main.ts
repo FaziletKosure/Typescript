@@ -88,3 +88,19 @@ notSure=["a","b"]
 
  const newMessage=(<string>message).toLowerCase(); // type assertions
  const newNewMessage=(message as string).toLowerCase(); // type assertions
+
+
+/**
+*  Object type
+
+ */
+
+let user :{
+    name:string,
+    age:number,
+    favoriteColor:string
+}={
+    name:"Jef",
+    age:30,
+    favoriteColor:"blue"
+}
