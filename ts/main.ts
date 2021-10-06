@@ -62,3 +62,17 @@ bgColor=Color.black;
 // --------------------TUPLE----------------------
 let myTupleError=[string,number];
 myTupleError=["Not found",404];
+
+
+// ----------------------------UNKNOWN------------------------
+let k= true;
+
+let l: any;
+k=l;
+
+let notSure: Unknown;
+notSure="Fazilet";
+notSure=37;
+notSure=false;
+notSure=["a","b"]
+// a=notSure // can not assign
