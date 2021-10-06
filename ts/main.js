@@ -48,3 +48,25 @@ var numberArray;
 numberArray = [1, 2, 3];
 var anyArray;
 anyArray = ["a", "b", 1, "c", 5, true];
+// ---------------ENUM-----------------------------
+var Color;
+(function (Color) {
+    Color[Color["purple"] = 0] = "purple";
+    Color[Color["black"] = 1] = "black";
+    Color[Color["red"] = 2] = "red";
+})(Color || (Color = {}));
+var bgColor = Color.red;
+bgColor = Color.black;
+// --------------------TUPLE----------------------
+var myTupleError;
+myTupleError = ["Not found", 404];
+// ----------------------------UNKNOWN------------------------
+var k = true;
+var l;
+k = l;
+var notSure;
+notSure = "Fazilet";
+notSure = 37;
+notSure = false;
+notSure = ["a", "b"];
+// a=notSure // can not assign

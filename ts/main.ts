@@ -60,8 +60,8 @@ let bgColor=Color.red;
 bgColor=Color.black;
 
 // --------------------TUPLE----------------------
-let myTupleError=[string,number];
-myTupleError=["Not found",404];
+let myTupleError:[String, number];
+myTupleError=["Not found", 404];
 
 
 // ----------------------------UNKNOWN------------------------
@@ -70,7 +70,7 @@ let k= true;
 let l: any;
 k=l;
 
-let notSure: Unknown;
+let notSure: unknown;
 notSure="Fazilet";
 notSure=37;
 notSure=false;
